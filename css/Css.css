@@ -618,6 +618,7 @@ a{text-decoration: none !important;}
 
 .bubble-1{
 	border-radius: 12% 19% 36% 53% / 15% 97% 90% 47% !important;
+	transition: 1.7s;
 }
 
 .bubble-2{
