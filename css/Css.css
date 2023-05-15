@@ -614,6 +614,13 @@ a{text-decoration: none !important;}
 	width: 160px;
 
 }
+.cta {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 20px;
+}
+
 
 
 .bubble-1{
