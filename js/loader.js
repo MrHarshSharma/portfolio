@@ -51,6 +51,7 @@ var finalCount=100;
                
                setTimeout(()=>{
                 document.getElementById('loadercontainer').style.display="none";
+                     changebubble()
                },400)
               nameInterval = setInterval(autotype, 100);
             }
@@ -96,4 +97,28 @@ function autotype(){
       document.getElementById('blinking-cursor').style.display='none';
     },1000);
   }
+}
+
+
+function changebubble(){
+
+  setInterval(function(){
+
+    let a = Math.floor(Math.random() * (100 - 10)) + 10;
+    let b = Math.floor(Math.random() * (100 - 10)) + 10;
+    let c = Math.floor(Math.random() * (100 - 10)) + 10;
+    let d = Math.floor(Math.random() * (100 - 10)) + 10;
+    let e = Math.floor(Math.random() * (100 - 10)) + 10;
+    let f = Math.floor(Math.random() * (100 - 10)) + 10;
+    let g = Math.floor(Math.random() * (100 - 10)) + 10;
+    let h = Math.floor(Math.random() * (100 - 10)) + 10;
+    
+    let bubble1 = document.querySelectorAll('.bubble-1');
+    for(let ele = 0;ele < bubble1.length;ele++){
+      bubble1[ele].setAttribute('style','border-radius:'+a+'% '+b+'% '+c+'% '+d+'% / '+e+'% '+f+'% '+g+'% '+h+'% !important')
+    }
+
+  
+  },1200)
+
 }
