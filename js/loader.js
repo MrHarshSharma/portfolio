@@ -30,7 +30,7 @@ var finalCount=100;
               clearInterval(i);
               i= setInterval(loadingScreen, 20);
               // $(".status h2 span").attr('data-aos','fade-up');
-               $(".status h2 span").html('Almost done..');
+               $(".status h2 span").html('Processing..');
             }
 
             if(counter==70){
