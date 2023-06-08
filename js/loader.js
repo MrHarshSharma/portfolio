@@ -16,8 +16,8 @@ var finalCount=100;
       var i = setInterval(loadingScreen, 100);
 
         function loadingScreen(){
-            counter=counter+5;
-            c++;
+            counter = counter + 2;
+            c = c + 2;
               $("#counter span").html(c);
 
             if(counter<freeVar){
