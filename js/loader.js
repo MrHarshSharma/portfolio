@@ -16,14 +16,14 @@ var finalCount=100;
       var i = setInterval(loadingScreen, 100);
 
         function loadingScreen(){
-            counter++;
+            counter=counter+10;
             c++;
               $("#counter span").html(c);
 
             if(counter<freeVar){
               $(".status h2 span").html('Processing..');
             }
-              $("#counterline").css("width", c + "%");
+              $("#counterline").css("width", counter + "%");
              
 
             if(counter==freeVar){
