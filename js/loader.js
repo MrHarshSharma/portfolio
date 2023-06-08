@@ -13,7 +13,7 @@ var finalCount=100;
 
          var counter = 0;
       var c = 0;
-      var i = setInterval(loadingScreen, 200);
+      var i = setInterval(loadingScreen, 100);
 
         function loadingScreen(){
             counter++;
